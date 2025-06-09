@@ -1,0 +1,54 @@
+
+body {
+font-family: sans-serif;
+background: #fbe9e7;
+color: #4e342e;
+  margin: 0;
+padding: 0;
+}
+
+header {
+background: #bf360c;
+color: white;
+text-align: center;
+padding: 20px;
+}
+
+main {
+padding: 20px;
+}
+
+h2 {
+color: #d84315;
+}
+
+.rival-pair {
+display: flex;
+align-items: center;
+justify-content: space-around;
+margin-bottom: 30px;
+background: #fff3e0;
+padding: 10px;
+}
+
+.rival img {
+width: 100px;
+height: 100px;
+object-fit: cover;
+border-radius: 50%;
+}
+
+.rival p {
+text-align: center;
+margin-top: 5px;
+}
+
+.vs {
+font-size: 1.5em;
+font-weight: bold;
+color: #bf360c;
+}
+
+.winner, .fan {
+margin-top: 40px;
+}
